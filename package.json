@@ -18,11 +18,13 @@
   "author": "Bumblebee-3",
   "license": "MIT",
   "homepage": "",
-
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-preset-env": "^1.6.0",
-    "jest": "^20.0.3"
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
   }
 }
