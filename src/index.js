@@ -35,7 +35,7 @@ client.variables({
 })
 }
 function load_handler(client, callback){
-  let call = require("./"+callback)
+  let call = require("__dirname","/"+callback)
   for(var item in call.callbacks) {
   eval("client."+call.callbacks[item]);
   }
