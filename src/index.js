@@ -1,6 +1,5 @@
 
 // Write your package code here.
-const path = require('path');
 
 
 function load_funcs(client){
@@ -37,8 +36,8 @@ client.variables({
 })
 }
 function load_handler(client, callback){
-  const directoryPath = path. join(__dirname, callback);
-  let call = require(directoryPath);
+  
+  let call = require(callback);
   for(var item in call.callbacks) {
   eval("client."+call.callbacks[item]);
   }
