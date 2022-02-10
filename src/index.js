@@ -38,9 +38,10 @@ client.variables({
 function load_handler(client, callback){
   
   let call = require(callback);
-  for(var item in call.callbacks) {
+  /*for(var item in call.callbacks) {
   eval("client."+call.callbacks[item]);
-  }
+  }*/
+  console.log(call)
 }
 
 
