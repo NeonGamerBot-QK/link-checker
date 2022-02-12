@@ -1,4 +1,5 @@
-# Aoi.js Plugins!
+# Aoi.js V5 Panel!
+## Gotta change all this
 ## The first ever Aoi.js plugins package
 ### Requires Node V16+
 ## Downloading:  
